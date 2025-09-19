@@ -1,0 +1,12 @@
+name = "coa-examples-app"
+main = "./.output/server/index.mjs"
+compatibility_date = "2025-07-15"
+
+[build]
+command = "npm run build"
+
+[env.production]
+name = "coa-examples-app-production"
+
+[env.staging]
+name = "coa-examples-app-staging"
